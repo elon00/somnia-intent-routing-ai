@@ -1,0 +1,9 @@
+[package]
+name = "somnia-intent-routing-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Declarative user intent settlement and solver mesh"
+license = "MIT"
+
+[dependencies]

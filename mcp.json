@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-intent-routing-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMINT"
+      },
+      "tools": [
+        {
+          "name": "verify_somint_invariants",
+          "description": "Verifies deterministic invariants for Somnia Intent Routing AI on Somnia Network."
+        },
+        {
+          "name": "execute_somint_action",
+          "description": "Executes authenticated AI state transition."
+        }
+      ]
+    }
+  }
+}
